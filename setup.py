@@ -1,7 +1,5 @@
 import sys
 from cx_Freeze import setup, Executable
-from random import randint
-import time
 
 
 base = None
@@ -14,7 +12,7 @@ executables = [
 
 buildOptions = dict(
         packages = [],
-        includes = ["time", "randint"],
+        includes = [],
         include_files = [],
         excludes = []
 )
